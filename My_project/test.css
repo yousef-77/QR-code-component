@@ -1,0 +1,50 @@
+
+*{ 
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 600;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.container{
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    max-width: 340px;
+}
+.container>img{
+    border-radius: 10px;
+    width: 320px;
+}
+h1{
+    width: 320px;
+    color:  hsl(218, 44%, 22%);
+    font-size: 28px;
+    text-align: center;
+}
+.container>p{
+    text-align: center;
+    font-size: 18px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 300;
+    width: 300px;
+    margin-left: 10px;
+}
+.done{
+    position: absolute;
+    right:23px ;
+    bottom: 0px;
+    font-weight: 200;
+}
+a{
+    color: hsla(242,88.4%,45.3%,1);
+    transition: ease 0.2s;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+}
